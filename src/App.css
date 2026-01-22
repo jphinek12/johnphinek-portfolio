@@ -96,9 +96,17 @@
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  padding: 7rem 3rem 2.5rem;
+  padding: 7rem 2rem 2.5rem;
   background: linear-gradient(145deg, #e8eaf6 0%, #f5f5fa 30%, #e3e7f5 100%);
   overflow: hidden;
+}
+
+.hero-top,
+.hero-bottom {
+  max-width: var(--max-width);
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 2rem;
 }
 
 .hero-blob {
@@ -280,7 +288,7 @@
   max-width: var(--max-width);
   margin: 0 auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 1.5rem;
 }
 
@@ -297,8 +305,9 @@
 }
 
 .experience-card:hover {
-  box-shadow: 0 8px 24px rgba(99, 102, 241, 0.12);
-  border-color: rgba(99, 102, 241, 0.2);
+  background: linear-gradient(145deg, #ffffff 0%, #e8eaf6 50%, #c7d2fe 100%);
+  box-shadow: 0 8px 24px rgba(99, 102, 241, 0.15);
+  border-color: rgba(99, 102, 241, 0.25);
 }
 
 .experience-card h3 {
@@ -692,6 +701,11 @@
     gap: 2rem;
   }
 
+  .hero-top,
+  .hero-bottom {
+    padding: 0 0.5rem;
+  }
+
   .hero-name {
     font-size: 2.5rem;
   }
@@ -719,6 +733,10 @@
   .work-experience,
   .contact {
     padding: 4rem 1.5rem;
+  }
+
+  .experience-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .page-content {
