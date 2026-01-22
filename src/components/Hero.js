@@ -1,30 +1,15 @@
+import heroBg from '../assets/hero-bg.jpg';
+
 function Hero() {
   return (
-    <section className="hero">
-      <div className="hero-blob"></div>
-      <div className="hero-blob-2"></div>
-      <div className="hero-grain"></div>
-
-      <div className="hero-top">
+    <section className="hero" style={{ backgroundImage: `url(${heroBg})` }}>
+      <div className="hero-content">
+        <h1 className="hero-name">JOHN PATRICK HINEK</h1>
         <p className="hero-tagline">
-          Building AI-enhanced<br />
-          growth engines at<br />
-          early-stage startups
+          Scaling early-stage startups with<br />
+          AI-enhanced marketing systems
         </p>
-      </div>
-
-      <div className="hero-bottom">
-        <div className="hero-title-wrapper">
-          <h1 className="hero-name">
-            JOHN<br />
-            PATRICK<br />
-            HINEK
-          </h1>
-        </div>
-        <p className="hero-subtitle">
-          Growth, Sales<br />
-          & Marketing
-        </p>
+        <a href="#work" className="hero-cta">View My Work</a>
       </div>
     </section>
   );
