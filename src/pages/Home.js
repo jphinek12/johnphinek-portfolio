@@ -7,8 +7,8 @@ function Home() {
   return (
     <main>
       <Hero />
-      <About />
       <WorkExperience />
+      <About />
       <Contact />
     </main>
   );

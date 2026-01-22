@@ -2,6 +2,13 @@ import { Link } from 'react-router-dom';
 
 const experiences = [
   {
+    id: 'safetykit',
+    company: 'SafetyKit',
+    role: 'First Marketing Hire',
+    description: 'Built marketing from the ground up at a Series A fraud prevention company serving PayPal, Discord, and Eventbrite.',
+    path: '/safetykit'
+  },
+  {
     id: 'mage',
     company: 'Mage',
     role: 'Growth Marketing Specialist',
@@ -41,7 +48,7 @@ function WorkExperience() {
             <h3>{exp.company}</h3>
             <p className="role">{exp.role}</p>
             <p className="description">{exp.description}</p>
-            <span className="card-link">Learn more &rarr;</span>
+            <span className="card-link">Learn more</span>
           </Link>
         ))}
       </div>
