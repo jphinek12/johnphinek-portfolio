@@ -52,6 +52,23 @@ function Navbar() {
               </li>
             </ul>
           </li>
+          <li className="nav-dropdown">
+            <span className="nav-dropdown-trigger">
+              Let's Connect
+            </span>
+            <ul className="nav-dropdown-menu">
+              <li>
+                <a href="https://www.linkedin.com/in/johnpatrickhinek" target="_blank" rel="noopener noreferrer">
+                  LinkedIn
+                </a>
+              </li>
+              <li>
+                <a href="mailto:johnphinek@gmail.com">
+                  Email
+                </a>
+              </li>
+            </ul>
+          </li>
         </ul>
       </div>
     </nav>
