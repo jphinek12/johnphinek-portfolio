@@ -7,7 +7,7 @@ export default function Lastof7() {
   return (
     <main className="work-page" style={{ backgroundImage: `url(/hero-bg.jpg)` }}>
       <div className="work-page-header">
-        <h1>Lastof7 Inc.</h1>
+        <img src="/lastof7-logo.png" alt="Lastof7 Inc." className="work-page-logo-white" />
         <p className="work-page-subtitle">
           I joined Lastof7—a luxury pickle brand—as the second employee, working directly with the founder to launch the company from scratch. I handled product development, influencer marketing, paid ads, and creative production before any specialized roles existed.
         </p>
