@@ -194,10 +194,26 @@ html {
   display: block;
   padding: 0.5rem 1rem;
   white-space: nowrap;
+  position: relative;
+}
+
+.nav-dropdown-menu a::after {
+  content: '→';
+  position: absolute;
+  right: 0.75rem;
+  opacity: 0;
+  transform: translateX(-5px);
+  transition: opacity 0.2s ease, transform 0.2s ease;
 }
 
 .nav-dropdown-menu a:hover {
   background: rgba(255, 255, 255, 0.1);
+  padding-right: 2rem;
+}
+
+.nav-dropdown-menu a:hover::after {
+  opacity: 1;
+  transform: translateX(0);
 }
 
 .nav-dropdown-menu a.active::after {
@@ -807,8 +823,13 @@ html {
     padding: 0;
   }
 
+  .nav-dropdown-menu a::after {
+    display: none;
+  }
+
   .nav-dropdown-menu a:hover {
     background: transparent;
+    padding-right: 0;
   }
 
   .nav-dropdown-group {
