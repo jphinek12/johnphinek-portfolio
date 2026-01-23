@@ -7,7 +7,7 @@ export default function SafetyKit() {
   return (
     <main className="work-page" style={{ backgroundImage: `url(/hero-bg.jpg)` }}>
       <div className="work-page-header">
-        <h1>SafetyKit</h1>
+        <img src="/safetykit-logo.png" alt="SafetyKit" className="work-page-logo" />
         <p className="work-page-subtitle">
           SafetyKit is a Series A AI company that builds AI agents for risk, compliance, and safety reviews for large marketplaces and fintech companies. Customers included PayPal, Visa, Discord, Patreon, Eventbrite, Upwork, Substack, and Etsy. As the sole marketer, I owned the full go-to-market function and worked directly with co-founders and GTM leadership.
         </p>
