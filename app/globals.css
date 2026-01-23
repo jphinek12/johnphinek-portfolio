@@ -1,3 +1,18 @@
+/* Base styles from index.css */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
 /* CSS Variables */
 :root {
   --primary-color: #1a1a2e;
@@ -277,7 +292,7 @@ html {
 }
 
 .experience-card .card-link::after {
-  content: '→';
+  content: '\2192';
   opacity: 0;
   transform: translateX(-8px);
   transition: all 0.3s ease;

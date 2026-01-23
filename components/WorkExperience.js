@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import Link from 'next/link';
 
 const experiences = [
   {
@@ -44,7 +44,7 @@ function WorkExperience() {
       <h2>Work Experience</h2>
       <div className="experience-grid">
         {experiences.map((exp) => (
-          <Link to={exp.path} key={exp.id} className="experience-card">
+          <Link href={exp.path} key={exp.id} className="experience-card">
             <h3>{exp.company}</h3>
             <p className="role">{exp.role}</p>
             <p className="description">{exp.description}</p>

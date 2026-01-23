@@ -1,8 +1,11 @@
-import heroBg from '../assets/hero-bg.jpg';
+export const metadata = {
+  title: 'SafetyKit | John Patrick Hinek',
+  description: 'Sole marketer at SafetyKit, a Series A AI company. Own the full go-to-market function for an AI safety platform serving PayPal, Discord, Visa, and Eventbrite.'
+};
 
-function SafetyKit() {
+export default function SafetyKit() {
   return (
-    <main className="work-page" style={{ backgroundImage: `url(${heroBg})` }}>
+    <main className="work-page" style={{ backgroundImage: `url(/hero-bg.jpg)` }}>
       <div className="work-page-header">
         <h1>SafetyKit</h1>
         <p className="work-page-subtitle">
@@ -132,5 +135,3 @@ function SafetyKit() {
     </main>
   );
 }
-
-export default SafetyKit;

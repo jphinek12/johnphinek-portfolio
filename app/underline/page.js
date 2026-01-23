@@ -1,8 +1,11 @@
-import heroBg from '../assets/hero-bg.jpg';
+export const metadata = {
+  title: 'Underline | John Patrick Hinek',
+  description: 'Performance marketing at Underline. Ran paid acquisition, direct mail, field events, and marketing analytics for a fiber infrastructure startup.'
+};
 
-function Underline() {
+export default function Underline() {
   return (
-    <main className="work-page" style={{ backgroundImage: `url(${heroBg})` }}>
+    <main className="work-page" style={{ backgroundImage: `url(/hero-bg.jpg)` }}>
       <div className="work-page-header">
         <h1>Underline</h1>
         <p className="work-page-subtitle">
@@ -172,5 +175,3 @@ function Underline() {
     </main>
   );
 }
-
-export default Underline;

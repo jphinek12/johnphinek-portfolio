@@ -1,8 +1,11 @@
-import heroBg from '../assets/hero-bg.jpg';
+export const metadata = {
+  title: 'Freelance | John Patrick Hinek',
+  description: 'Marketing consulting for early-stage startups—automation workflows, positioning and messaging, analytics infrastructure, and go-to-market planning.'
+};
 
-function Freelance() {
+export default function Freelance() {
   return (
-    <main className="work-page" style={{ backgroundImage: `url(${heroBg})` }}>
+    <main className="work-page" style={{ backgroundImage: `url(/hero-bg.jpg)` }}>
       <div className="work-page-header">
         <h1>Freelance</h1>
         <p className="work-page-subtitle">
@@ -146,5 +149,3 @@ function Freelance() {
     </main>
   );
 }
-
-export default Freelance;

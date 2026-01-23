@@ -1,8 +1,11 @@
-import heroBg from '../assets/hero-bg.jpg';
+export const metadata = {
+  title: 'Mage | John Patrick Hinek',
+  description: 'First marketing hire at Mage. Built community, content, SEO, events, lifecycle, outbound, and account-based programs.'
+};
 
-function Mage() {
+export default function Mage() {
   return (
-    <main className="work-page" style={{ backgroundImage: `url(${heroBg})` }}>
+    <main className="work-page" style={{ backgroundImage: `url(/hero-bg.jpg)` }}>
       <div className="work-page-header">
         <h1>Mage</h1>
         <p className="work-page-subtitle">
@@ -225,5 +228,3 @@ function Mage() {
     </main>
   );
 }
-
-export default Mage;

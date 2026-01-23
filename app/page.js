@@ -3,7 +3,7 @@ import About from '../components/About';
 import WorkExperience from '../components/WorkExperience';
 import Contact from '../components/Contact';
 
-function Home() {
+export default function Home() {
   return (
     <main>
       <Hero />
@@ -13,5 +13,3 @@ function Home() {
     </main>
   );
 }
-
-export default Home;

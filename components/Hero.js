@@ -1,8 +1,6 @@
-import heroBg from '../assets/hero-bg.jpg';
-
 function Hero() {
   return (
-    <section className="hero" style={{ backgroundImage: `url(${heroBg})` }}>
+    <section className="hero" style={{ backgroundImage: `url(/hero-bg.jpg)` }}>
       <div className="hero-content">
         <h1 className="hero-name">JOHN PATRICK HINEK</h1>
         <p className="hero-tagline">

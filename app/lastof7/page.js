@@ -1,8 +1,11 @@
-import heroBg from '../assets/hero-bg.jpg';
+export const metadata = {
+  title: 'Lastof7 Inc. | John Patrick Hinek',
+  description: 'Employee #2 at Lastof7, a luxury pickle brand. Handled product development, influencer marketing, paid ads, and creative production.'
+};
 
-function Lastof7() {
+export default function Lastof7() {
   return (
-    <main className="work-page" style={{ backgroundImage: `url(${heroBg})` }}>
+    <main className="work-page" style={{ backgroundImage: `url(/hero-bg.jpg)` }}>
       <div className="work-page-header">
         <h1>Lastof7 Inc.</h1>
         <p className="work-page-subtitle">
@@ -135,5 +138,3 @@ function Lastof7() {
     </main>
   );
 }
-
-export default Lastof7;
