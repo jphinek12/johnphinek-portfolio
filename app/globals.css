@@ -191,9 +191,9 @@ html {
 }
 
 .nav-dropdown-menu a {
-  display: inline-flex;
+  display: flex;
   align-items: center;
-  gap: 0.5rem;
+  justify-content: space-between;
   padding: 0.5rem 1rem;
   white-space: nowrap;
 }
@@ -201,8 +201,9 @@ html {
 .nav-dropdown-menu a::after {
   content: '\2192';
   opacity: 0;
-  transform: translateX(-8px);
+  transform: translateX(8px);
   transition: all 0.3s ease;
+  margin-left: 1rem;
 }
 
 .nav-dropdown-menu a:hover {
