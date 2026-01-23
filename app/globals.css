@@ -191,24 +191,22 @@ html {
 }
 
 .nav-dropdown-menu a {
-  display: block;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
   padding: 0.5rem 1rem;
   white-space: nowrap;
-  position: relative;
 }
 
 .nav-dropdown-menu a::after {
-  content: '→';
-  position: absolute;
-  right: 0.75rem;
+  content: '\2192';
   opacity: 0;
-  transform: translateX(-5px);
-  transition: opacity 0.2s ease, transform 0.2s ease;
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
 }
 
 .nav-dropdown-menu a:hover {
   background: rgba(255, 255, 255, 0.1);
-  padding-right: 2rem;
 }
 
 .nav-dropdown-menu a:hover::after {
