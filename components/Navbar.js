@@ -41,13 +41,12 @@ function Navbar() {
                   Lastof7
                 </Link>
               </li>
-              <li>
+              <li className="nav-dropdown-group">
                 <Link href="/freelance" className={isActive('/freelance') ? 'active' : ''}>
                   Freelance
                 </Link>
-              </li>
-              <li className="nav-dropdown-subitem">
-                <Link href="/safetykit" className={isActive('/safetykit') ? 'active' : ''}>
+                <span className="nav-group-divider">/</span>
+                <Link href="/safetykit" className={`nav-group-secondary ${isActive('/safetykit') ? 'active' : ''}`}>
                   SafetyKit
                 </Link>
               </li>

@@ -204,22 +204,25 @@ html {
   display: none;
 }
 
-.nav-dropdown-subitem {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  margin-top: 0.25rem;
-  padding-top: 0.25rem;
+.nav-dropdown-group {
+  display: flex;
+  align-items: center;
+  gap: 0;
 }
 
-.nav-dropdown-subitem a {
-  padding-left: 1.5rem;
-  font-size: 0.9rem;
-  opacity: 0.9;
+.nav-group-divider {
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.85rem;
+  padding: 0 0.25rem;
 }
 
-.nav-dropdown-subitem a::before {
-  content: '└';
-  margin-right: 0.5rem;
-  opacity: 0.6;
+.nav-group-secondary {
+  font-size: 0.85rem;
+  opacity: 0.85;
+}
+
+.nav-group-secondary:hover {
+  opacity: 1;
 }
 
 /* Hero Section */
@@ -808,20 +811,13 @@ html {
     background: transparent;
   }
 
-  .nav-dropdown-subitem {
-    border-top: none;
-    margin-top: 0;
-    padding-top: 0;
+  .nav-dropdown-group {
+    display: flex;
+    align-items: center;
   }
 
-  .nav-dropdown-subitem a {
-    padding-left: 0;
-    font-size: 0.95rem;
-    opacity: 1;
-  }
-
-  .nav-dropdown-subitem a::before {
-    display: none;
+  .nav-group-secondary {
+    font-size: 0.85rem;
   }
 
   .hero {
