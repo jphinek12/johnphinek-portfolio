@@ -7,7 +7,7 @@ export default function Underline() {
   return (
     <main className="work-page" style={{ backgroundImage: `url(/hero-bg.jpg)` }}>
       <div className="work-page-header">
-        <img src="/underline-logo.svg" alt="Underline" className="work-page-logo" />
+        <img src="/underline-logo.svg" alt="Underline" className="work-page-logo-lg" />
         <p className="work-page-subtitle">
           At Underline, a fiber network infrastructure startup, I ran performance marketing, direct mail, field events, and marketing analytics—scaling ad spend from $10K to $50K/month while building the data infrastructure to track it all.
         </p>
