@@ -7,7 +7,7 @@ export default function Mage() {
   return (
     <main className="work-page" style={{ backgroundImage: `url(/hero-bg.jpg)` }}>
       <div className="work-page-header">
-        <h1>Mage</h1>
+        <img src="/mage-logo.svg" alt="Mage" className="work-page-logo" />
         <p className="work-page-subtitle">
           I joined Mage as employee #6 and the first marketing hire. Over two years, I built every part of the marketing function: community, content, SEO, events, lifecycle, outbound, and account-based programs—mostly without agencies or budget.
         </p>
