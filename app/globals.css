@@ -518,21 +518,21 @@ html {
 }
 
 .work-page-logo {
-  height: 60px;
-  width: auto;
-  margin: 1.5rem 0 1rem;
-  filter: brightness(0) invert(1);
-}
-
-.work-page-logo-lg {
   height: 80px;
   width: auto;
   margin: 1.5rem 0 1rem;
   filter: brightness(0) invert(1);
 }
 
+.work-page-logo-lg {
+  height: 100px;
+  width: auto;
+  margin: 1.5rem 0 1rem;
+  filter: brightness(0) invert(1);
+}
+
 .work-page-logo-white {
-  height: 60px;
+  height: 80px;
   width: auto;
   margin: 1.5rem 0 1rem;
 }
