@@ -5,7 +5,7 @@ const experiences = [
     id: 'safetykit',
     company: 'SafetyKit',
     role: 'First Marketing Hire',
-    description: 'Sole marketer building the full go-to-market function—managing sales enablement, conference strategy, content, paid acquisition, and website—for an AI safety platform serving PayPal, Discord, Visa, and Eventbrite.',
+    description: 'Sole marketer who built the full go-to-market function—managed sales enablement, conference strategy, content, paid acquisition, and website—for an AI safety platform serving PayPal, Discord, Visa, and Eventbrite.',
     path: '/safetykit'
   },
   {

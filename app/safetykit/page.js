@@ -1,6 +1,6 @@
 export const metadata = {
   title: 'SafetyKit | John Patrick Hinek',
-  description: 'Sole marketer at SafetyKit, a Series A AI company. Own the full go-to-market function for an AI safety platform serving PayPal, Discord, Visa, and Eventbrite.'
+  description: 'Sole marketer at SafetyKit, a Series A AI company. Owned the full go-to-market function for an AI safety platform serving PayPal, Discord, Visa, and Eventbrite.'
 };
 
 export default function SafetyKit() {
@@ -9,7 +9,7 @@ export default function SafetyKit() {
       <div className="work-page-header">
         <h1>SafetyKit</h1>
         <p className="work-page-subtitle">
-          SafetyKit is a Series A AI company that builds AI agents for risk, compliance, and safety reviews for large marketplaces and fintech companies. Our customers include PayPal, Visa, Discord, Patreon, Eventbrite, Upwork, Substack, and Etsy. As the sole marketer, I own the full go-to-market function and work directly with co-founders and GTM leadership.
+          SafetyKit is a Series A AI company that builds AI agents for risk, compliance, and safety reviews for large marketplaces and fintech companies. Customers included PayPal, Visa, Discord, Patreon, Eventbrite, Upwork, Substack, and Etsy. As the sole marketer, I owned the full go-to-market function and worked directly with co-founders and GTM leadership.
         </p>
         <div className="section-nav">
           <a href="#events" className="section-nav-btn">Conference & Events</a>

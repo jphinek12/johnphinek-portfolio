@@ -8,7 +8,7 @@ function About() {
             I've spent my career as the first marketing hire at early-stage startups, which means building everything from scratch: strategy, systems, content, events, and cross-functional processes.
           </p>
           <p>
-            Most recently at SafetyKit, I'm the sole marketer for a Series A AI company, working directly with co-founders and GTM leadership on everything from conference strategy and executive dinners to website development and sales collateral.
+            Most recently at SafetyKit, I was the sole marketer for a Series A AI company, working directly with co-founders and GTM leadership on everything from conference strategy and executive dinners to website development and sales collateral.
           </p>
           <p>
             Before that, I built the marketing function at Mage, growing their Slack community to 7,500+ data professionals, managing agency partners, and coordinating product launches across engineering, product, and sales teams.
