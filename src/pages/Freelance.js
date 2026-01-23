@@ -1,10 +1,9 @@
-import { Link } from 'react-router-dom';
+import heroBg from '../assets/hero-bg.jpg';
 
 function Freelance() {
   return (
-    <main className="work-page">
+    <main className="work-page" style={{ backgroundImage: `url(${heroBg})` }}>
       <div className="work-page-header">
-        <Link to="/" className="back-link">&larr; Back to Home</Link>
         <h1>Freelance</h1>
         <p className="work-page-subtitle">
           I help early-stage startups get their marketing off the ground—the same work I've done as the first marketing hire at Mage, Underline, and SafetyKit. I work best with technical founders who have a strong product but need help translating it for their target market.

@@ -1,10 +1,9 @@
-import { Link } from 'react-router-dom';
+import heroBg from '../assets/hero-bg.jpg';
 
 function Underline() {
   return (
-    <main className="work-page">
+    <main className="work-page" style={{ backgroundImage: `url(${heroBg})` }}>
       <div className="work-page-header">
-        <Link to="/" className="back-link">&larr; Back to Home</Link>
         <h1>Underline</h1>
         <p className="work-page-subtitle">
           At Underline, a fiber network infrastructure startup, I ran performance marketing, direct mail, field events, and marketing analytics—scaling ad spend from $10K to $50K/month while building the data infrastructure to track it all.

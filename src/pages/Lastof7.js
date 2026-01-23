@@ -1,10 +1,9 @@
-import { Link } from 'react-router-dom';
+import heroBg from '../assets/hero-bg.jpg';
 
 function Lastof7() {
   return (
-    <main className="work-page">
+    <main className="work-page" style={{ backgroundImage: `url(${heroBg})` }}>
       <div className="work-page-header">
-        <Link to="/" className="back-link">&larr; Back to Home</Link>
         <h1>Lastof7 Inc.</h1>
         <p className="work-page-subtitle">
           I joined Lastof7—a luxury pickle brand—as the second employee, working directly with the founder to launch the company from scratch. I handled product development, influencer marketing, paid ads, and creative production before any specialized roles existed.

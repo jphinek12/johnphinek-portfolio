@@ -1,10 +1,9 @@
-import { Link } from 'react-router-dom';
+import heroBg from '../assets/hero-bg.jpg';
 
 function Mage() {
   return (
-    <main className="work-page">
+    <main className="work-page" style={{ backgroundImage: `url(${heroBg})` }}>
       <div className="work-page-header">
-        <Link to="/" className="back-link">&larr; Back to Home</Link>
         <h1>Mage</h1>
         <p className="work-page-subtitle">
           I joined Mage as employee #6 and the first marketing hire. Over two years, I built every part of the marketing function: community, content, SEO, events, lifecycle, outbound, and account-based programs—mostly without agencies or budget.

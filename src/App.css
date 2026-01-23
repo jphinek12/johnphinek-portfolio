@@ -349,35 +349,13 @@
 
 /* Work Page Styles */
 .work-page {
-  background: linear-gradient(180deg, #e0e8f5 0%, #f0e8f0 40%, #faf5f0 70%, #f5f8fa 100%);
   min-height: 100vh;
   padding: 6rem 2rem 4rem;
   position: relative;
   overflow: hidden;
-}
-
-.work-page::before {
-  content: '';
-  position: absolute;
-  top: 10%;
-  left: -5%;
-  width: 40%;
-  height: 40%;
-  background: radial-gradient(ellipse at center, rgba(102, 126, 234, 0.2) 0%, transparent 60%);
-  filter: blur(60px);
-  pointer-events: none;
-}
-
-.work-page::after {
-  content: '';
-  position: absolute;
-  bottom: 15%;
-  right: -5%;
-  width: 35%;
-  height: 35%;
-  background: radial-gradient(ellipse at center, rgba(240, 147, 251, 0.2) 0%, transparent 60%);
-  filter: blur(60px);
-  pointer-events: none;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 .work-page-header {
@@ -415,9 +393,7 @@
 .work-section {
   max-width: 800px;
   margin: 0 auto 2rem;
-  background: rgba(255, 255, 255, 0.8);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
+  background: rgba(255, 255, 255, 0.95);
   border-radius: 20px;
   padding: 2.5rem;
   box-shadow: 0 4px 24px rgba(45, 45, 45, 0.08);
@@ -692,7 +668,7 @@
     padding: 1.5rem;
     margin-bottom: 1.5rem;
     border-radius: 16px;
-    background: rgba(255, 255, 255, 0.8);
+    background: rgba(255, 255, 255, 0.95);
   }
 
   .work-section h2 {

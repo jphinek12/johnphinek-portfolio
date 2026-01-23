@@ -1,10 +1,9 @@
-import { Link } from 'react-router-dom';
+import heroBg from '../assets/hero-bg.jpg';
 
 function SafetyKit() {
   return (
-    <main className="work-page">
+    <main className="work-page" style={{ backgroundImage: `url(${heroBg})` }}>
       <div className="work-page-header">
-        <Link to="/" className="back-link">&larr; Back to Home</Link>
         <h1>SafetyKit</h1>
         <p className="work-page-subtitle">
           SafetyKit is a Series A AI company that builds AI agents for risk, compliance, and safety reviews for large marketplaces and fintech companies. Our customers include PayPal, Visa, Discord, Patreon, Eventbrite, Upwork, Substack, and Etsy. As the sole marketer, I own the full go-to-market function and work directly with co-founders and GTM leadership.
