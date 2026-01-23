@@ -377,17 +377,19 @@
 
 .work-page-header h1 {
   font-size: 2.75rem;
-  color: #2d3748;
+  color: #ffffff;
   margin: 1.5rem 0 1rem;
   font-weight: 700;
   letter-spacing: -0.5px;
+  text-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 }
 
 .work-page-subtitle {
-  color: #4a5568;
+  color: rgba(255, 255, 255, 0.95);
   font-size: 1.15rem;
   line-height: 1.7;
   margin: 0;
+  text-shadow: 0 1px 8px rgba(0, 0, 0, 0.15);
 }
 
 .work-section {
@@ -407,7 +409,9 @@
 }
 
 .section-tag {
-  display: inline-block;
+  display: block;
+  width: fit-content;
+  margin: 0 auto 1rem;
   padding: 0.4rem 1rem;
   background: rgba(102, 126, 234, 0.12);
   border: none;
@@ -415,7 +419,6 @@
   font-size: 0.75rem;
   font-weight: 600;
   color: #667eea;
-  margin-bottom: 1rem;
   letter-spacing: 0.5px;
   text-transform: uppercase;
 }
@@ -425,6 +428,7 @@
   color: #2d3748;
   margin: 0 0 0.75rem;
   font-weight: 700;
+  text-align: center;
 }
 
 .section-summary {
@@ -484,10 +488,15 @@
 .metric-card {
   background: rgba(102, 126, 234, 0.08);
   padding: 1.25rem 1rem;
-  border-radius: 16px;
+  border-radius: 0;
   text-align: center;
   border: 1px solid rgba(102, 126, 234, 0.12);
   transition: var(--transition);
+  aspect-ratio: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .metric-card:hover {
@@ -691,6 +700,7 @@
 
   .metric-card {
     padding: 1rem;
+    aspect-ratio: 1;
   }
 
   .metric-value {
