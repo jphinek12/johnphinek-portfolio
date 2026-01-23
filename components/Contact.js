@@ -8,7 +8,7 @@ function Contact() {
           or potential collaborations?
         </p>
         <a
-          href="https://www.linkedin.com/in/johnphinek/"
+          href="https://www.linkedin.com/in/johnpatrickhinek"
           target="_blank"
           rel="noopener noreferrer"
           className="contact-btn"

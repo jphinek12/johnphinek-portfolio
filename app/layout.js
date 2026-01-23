@@ -1,5 +1,6 @@
 import './globals.css';
 import Navbar from '../components/Navbar';
+import Contact from '../components/Contact';
 
 export const metadata = {
   title: 'John Patrick Hinek | Marketing & Operations Leader',
@@ -12,6 +13,7 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar />
         {children}
+        <Contact />
       </body>
     </html>
   );
