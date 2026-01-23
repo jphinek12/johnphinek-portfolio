@@ -5,35 +5,35 @@ const experiences = [
     id: 'safetykit',
     company: 'SafetyKit',
     role: 'First Marketing Hire',
-    description: 'Built marketing from the ground up at a Series A fraud prevention company serving PayPal, Discord, and Eventbrite.',
+    description: 'Sole marketer building the full go-to-market function—managing sales enablement, conference strategy, content, paid acquisition, and website—for an AI safety platform serving PayPal, Discord, Visa, and Eventbrite.',
     path: '/safetykit'
   },
   {
     id: 'mage',
     company: 'Mage',
     role: 'Growth Marketing Specialist',
-    description: 'Leading growth initiatives and marketing strategies to drive user acquisition and retention.',
+    description: 'First marketing hire. Built and grew a 7,500-member Slack community of data professionals, launched the company blog, managed agency relationships, and ran product launches for Mage Pro.',
     path: '/mage'
   },
   {
     id: 'underline',
     company: 'Underline',
     role: 'Performance Marketing Associate',
-    description: 'Managing performance marketing campaigns and optimizing ad spend for maximum ROI.',
+    description: 'Ran paid acquisition across Google, Meta, and LinkedIn while coordinating field marketing events and out-of-home campaigns for a fiber infrastructure startup.',
     path: '/underline'
   },
   {
     id: 'lastof7',
     company: 'Lastof7 Inc.',
     role: 'Early Employee',
-    description: 'Joined as an early team member, wearing multiple hats and contributing to company growth from the ground up.',
+    description: 'Employee #2 at a luxury food startup. Handled product development, launch operations, vendor coordination, and fulfillment logistics before the company had dedicated teams.',
     path: '/lastof7'
   },
   {
     id: 'freelance',
     company: 'Freelance',
     role: 'Marketing Consultant',
-    description: 'Providing strategic marketing guidance and execution for various clients across industries.',
+    description: 'Marketing consulting for early-stage startups—building automation workflows, writing positioning and messaging, and setting up analytics infrastructure.',
     path: '/freelance'
   }
 ];

@@ -6,8 +6,8 @@ function Hero() {
       <div className="hero-content">
         <h1 className="hero-name">JOHN PATRICK HINEK</h1>
         <p className="hero-tagline">
-          Scaling early-stage startups with<br />
-          AI-enhanced marketing systems
+          Building marketing teams and operations<br />
+          from zero at high-growth startups
         </p>
         <a href="#work" className="hero-cta">View My Work</a>
       </div>

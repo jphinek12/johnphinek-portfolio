@@ -539,6 +539,14 @@
   line-height: 1.3;
 }
 
+.metric-context {
+  font-size: 0.85rem;
+  color: #4a5568;
+  font-style: italic;
+  margin-top: 1rem;
+  text-align: center;
+}
+
 /* Contact Section */
 .contact {
   padding: 6rem 2rem;

@@ -7,7 +7,7 @@ function Underline() {
         <Link to="/" className="back-link">&larr; Back to Home</Link>
         <h1>Underline</h1>
         <p className="work-page-subtitle">
-          Performance Marketing Associate driving user acquisition through multi-channel campaigns.
+          At Underline, a fiber network infrastructure startup, I ran performance marketing, direct mail, field events, and marketing analytics—scaling ad spend from $10K to $50K/month while building the data infrastructure to track it all.
         </p>
       </div>
 
@@ -16,28 +16,28 @@ function Underline() {
         <span className="section-tag">Performance</span>
         <h2>Performance Marketing</h2>
         <p className="section-summary">
-          Launched a performance marketing system from scratch to scale user acquisition.
+          Built and managed paid acquisition across Google and Meta, scaling monthly spend from $10K to $50K while maintaining 4:1 return on ad spend.
         </p>
 
         <div className="work-details">
           <div className="work-item">
-            <h3>Performance marketing strategy.</h3>
+            <h3>Campaign Setup & Management.</h3>
             <p>
-              Developed the paid media program from 0 to 1, secured test budget, aligned creative with brand.
+              Launched Underline's first paid media campaigns from scratch. Built account structures, created geo-targeted ad sets for specific neighborhoods, and managed ongoing optimization across platforms.
             </p>
           </div>
 
           <div className="work-item">
-            <h3>Full-funnel campaign execution.</h3>
+            <h3>Creative & Testing.</h3>
             <p>
-              Launched and optimized ad sets across Meta and Google, including geo-targeted creative.
+              Developed ad creative with the design team, ran A/B tests on messaging and visuals, and identified which angles worked for different neighborhoods. Testimonial ads targeting specific ZIP codes became our best performers.
             </p>
           </div>
 
           <div className="work-item">
-            <h3>Attribution + segmentation.</h3>
+            <h3>Attribution.</h3>
             <p>
-              Introduced a custom lead attribution model across digital, print, and grassroots, and deployed segmented testimonial ads based on ZIP and income data.
+              Built a custom attribution model to track leads across digital ads, direct mail, and grassroots channels—critical for understanding true ROI when customers saw multiple touchpoints before signing up.
             </p>
           </div>
         </div>
@@ -63,28 +63,28 @@ function Underline() {
         <span className="section-tag">Mail</span>
         <h2>Direct Mail</h2>
         <p className="section-summary">
-          Scaled a data-driven direct mail program that leveraged paid media insights for hyper-local targeting contributing to an increase in monthly signups through strategic neighborhood-level personalization.
+          Ran a direct mail program sending 20,000+ postcards per month, using digital campaign data to target the right neighborhoods. Direct mail drove 35% of monthly signups.
         </p>
 
         <div className="work-details">
           <div className="work-item">
-            <h3>Data-Driven Audience Strategy & Targeting.</h3>
+            <h3>Targeting Strategy.</h3>
             <p>
-              Integrated Meta and Google Ads audience insights with demographic data to create hyper-targeted campaigns by zip code and neighborhood. Analyzed digital campaign performance to identify messaging and creative elements that resonated with specific geographic segments, enabling precision targeting at the local level.
+              Used insights from digital campaigns to identify high-converting ZIP codes and neighborhoods. Cross-referenced with demographic data to prioritize areas with the best fit for Underline's service.
             </p>
           </div>
 
           <div className="work-item">
-            <h3>Creative Testing & Message Optimization.</h3>
+            <h3>Creative & Personalization.</h3>
             <p>
-              Developed and executed A/B testing framework across different zip codes and neighborhoods, testing messaging variations to optimize for local market preferences. Created neighborhood-specific creative that spoke directly to each segment's unique needs and pain points based on digital advertising learnings.
+              Created neighborhood-specific postcard designs and messaging. Tested different offers and creative approaches, then doubled down on what worked in each area.
             </p>
           </div>
 
           <div className="work-item">
-            <h3>Attribution & Performance Analytics.</h3>
+            <h3>Tracking & Attribution.</h3>
             <p>
-              Built comprehensive SQL tracking system using joins to connect signups with specific mailer types, geographic targeting, and multi-touchpoint customer journeys. Established clear attribution methodology to measure direct mail's contribution to the overall acquisition funnel and optimize campaign performance.
+              Built SQL queries to connect postcard campaigns with signups, tracking which mailer versions and neighborhoods drove the best results. This data directly informed where we expanded next.
             </p>
           </div>
         </div>
@@ -104,30 +104,30 @@ function Underline() {
       {/* Data Strategy */}
       <section className="work-section">
         <span className="section-tag">Data</span>
-        <h2>Data Strategy</h2>
+        <h2>Marketing Analytics</h2>
         <p className="section-summary">
-          Built comprehensive data infrastructure and analytics framework to support 5x spending scale-up, integrating multi-channel performance data to drive strategic budget allocation and quarterly marketing planning.
+          Built the marketing data infrastructure from scratch—consolidating data from ads, email, CRM, and direct mail into BigQuery and creating dashboards that informed weekly decisions and quarterly planning.
         </p>
 
         <div className="work-details">
           <div className="work-item">
-            <h3>Cross-Channel Data Integration & Infrastructure.</h3>
+            <h3>Data Infrastructure.</h3>
             <p>
-              Consolidated data streams from Google Analytics, Facebook/Google Ads, CRM, email platforms, and direct mail performance into BigQuery, creating a unified data warehouse that enabled holistic performance tracking across all marketing channels during rapid scaling phase.
+              Set up data pipelines from Google Analytics, Facebook Ads, Google Ads, CRM, email platforms, and direct mail vendors into BigQuery. Created a unified view of marketing performance across all channels.
             </p>
           </div>
 
           <div className="work-item">
-            <h3>Performance Dashboard Development.</h3>
+            <h3>Dashboards & Reporting.</h3>
             <p>
-              Built comprehensive SQL dashboards tracking CAC, CVR, ROAS, funnel analysis, LTV, and channel performance metrics. Developed automated reporting systems that provided real-time visibility into campaign performance as monthly spend scaled from $10K to $50K.
+              Built SQL dashboards tracking CAC, conversion rates, ROAS, and LTV by channel. Delivered weekly performance reports to the marketing team and leadership as spend scaled 5x.
             </p>
           </div>
 
           <div className="work-item">
-            <h3>Strategic Analytics & Budget Planning.</h3>
+            <h3>Budget Planning.</h3>
             <p>
-              Delivered weekly performance reports to marketing team and provided data-driven recommendations that directly informed quarterly marketing budget decisions. Analyzed channel performance trends and ROI metrics to guide strategic spending distribution across paid media and direct mail campaigns.
+              Used channel performance data to recommend budget allocation across paid media and direct mail. Analysis directly informed quarterly marketing plans and helped justify spend increases.
             </p>
           </div>
         </div>
@@ -136,30 +136,30 @@ function Underline() {
       {/* Event Marketing */}
       <section className="work-section">
         <span className="section-tag">Events</span>
-        <h2>Event Marketing</h2>
+        <h2>Field Marketing & Events</h2>
         <p className="section-summary">
-          Planned and executed 30+ annual in-person events across target markets, building community presence and driving brand awareness through diverse event programming that engaged customers, prospects, and business partners.
+          Planned and executed 30+ in-person events per year—networking meetups, customer appreciation events, and local activations—to build community presence in target markets.
         </p>
 
         <div className="work-details">
           <div className="work-item">
-            <h3>Community-Driven Event Strategy & Programming.</h3>
+            <h3>Event Strategy.</h3>
             <p>
-              Developed comprehensive event portfolio including community-driven networking events, customer success celebrations, educational townhalls, and local market activations. Focused on establishing Underline's presence within local business communities while creating meaningful touchpoints for relationship building.
+              Developed an event calendar targeting neighborhoods where Underline was launching service. Mix included customer appreciation events to drive referrals, networking meetups for local businesses, and educational sessions for prospects.
             </p>
           </div>
 
           <div className="work-item">
-            <h3>Cross-Functional Event Production & Management.</h3>
+            <h3>Logistics & Coordination.</h3>
             <p>
-              Coordinated complex event logistics using Asana for project management, collaborating with product, design, and sales teams to ensure consistent messaging and impactful content delivery. Created presentation materials and managed all event touchpoints from planning through post-event follow-up campaigns.
+              Managed end-to-end event production: venue booking, vendor coordination, attendee communications, presentation materials, and day-of execution. Used Asana to coordinate across product, design, and sales teams.
             </p>
           </div>
 
           <div className="work-item">
-            <h3>Integrated Marketing & Lead Nurturing.</h3>
+            <h3>Follow-Up.</h3>
             <p>
-              Executed post-event engagement strategies that funneled participants into email campaigns and ad retargeting sequences, maximizing event ROI through systematic lead nurturing. Managed both customer appreciation initiatives and prospect education programs to support different funnel stages.
+              Ran post-event email campaigns and retargeting ads to convert attendees. Tracked event-to-signup conversion to prioritize high-performing event types.
             </p>
           </div>
         </div>
