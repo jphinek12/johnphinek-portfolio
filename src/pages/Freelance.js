@@ -8,10 +8,16 @@ function Freelance() {
         <p className="work-page-subtitle">
           I help early-stage startups get their marketing off the ground—the same work I've done as the first marketing hire at Mage, Underline, and SafetyKit. I work best with technical founders who have a strong product but need help translating it for their target market.
         </p>
+        <div className="section-nav">
+          <a href="#automation" className="section-nav-btn">Marketing Automation</a>
+          <a href="#positioning" className="section-nav-btn">Positioning & Messaging</a>
+          <a href="#analytics" className="section-nav-btn">Analytics Infrastructure</a>
+          <a href="#gtm" className="section-nav-btn">Go-to-Market Planning</a>
+        </div>
       </div>
 
       {/* Marketing Automation */}
-      <section className="work-section">
+      <section id="automation" className="work-section">
         <span className="section-tag">Automation</span>
         <h2>Marketing Automation</h2>
         <p className="section-summary">
@@ -43,7 +49,7 @@ function Freelance() {
       </section>
 
       {/* Positioning & Messaging */}
-      <section className="work-section">
+      <section id="positioning" className="work-section">
         <span className="section-tag">Strategy</span>
         <h2>Positioning & Messaging</h2>
         <p className="section-summary">
@@ -75,7 +81,7 @@ function Freelance() {
       </section>
 
       {/* Analytics Infrastructure */}
-      <section className="work-section">
+      <section id="analytics" className="work-section">
         <span className="section-tag">Analytics</span>
         <h2>Analytics Infrastructure</h2>
         <p className="section-summary">
@@ -107,7 +113,7 @@ function Freelance() {
       </section>
 
       {/* Go-to-Market Planning */}
-      <section className="work-section">
+      <section id="gtm" className="work-section">
         <span className="section-tag">GTM</span>
         <h2>Go-to-Market Planning</h2>
         <p className="section-summary">

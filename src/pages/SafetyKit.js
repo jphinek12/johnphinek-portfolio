@@ -8,10 +8,16 @@ function SafetyKit() {
         <p className="work-page-subtitle">
           SafetyKit is a Series A AI company that builds AI agents for risk, compliance, and safety reviews for large marketplaces and fintech companies. Our customers include PayPal, Visa, Discord, Patreon, Eventbrite, Upwork, Substack, and Etsy. As the sole marketer, I own the full go-to-market function and work directly with co-founders and GTM leadership.
         </p>
+        <div className="section-nav">
+          <a href="#events" className="section-nav-btn">Conference & Events</a>
+          <a href="#product" className="section-nav-btn">Product Marketing</a>
+          <a href="#content" className="section-nav-btn">Thought Leadership</a>
+          <a href="#demand-gen" className="section-nav-btn">Demand Generation</a>
+        </div>
       </div>
 
       {/* Conference & Event Leadership */}
-      <section className="work-section">
+      <section id="events" className="work-section">
         <span className="section-tag">Events</span>
         <h2>Conference Strategy & Executive Events</h2>
         <p className="section-summary">
@@ -36,7 +42,7 @@ function SafetyKit() {
       </section>
 
       {/* Product Marketing & Positioning */}
-      <section className="work-section">
+      <section id="product" className="work-section">
         <span className="section-tag">Product</span>
         <h2>Product Marketing & Positioning</h2>
         <p className="section-summary">
@@ -68,7 +74,7 @@ function SafetyKit() {
       </section>
 
       {/* Thought Leadership & Compliance Content */}
-      <section className="work-section">
+      <section id="content" className="work-section">
         <span className="section-tag">Content</span>
         <h2>Thought Leadership & Compliance Content</h2>
         <p className="section-summary">
@@ -93,7 +99,7 @@ function SafetyKit() {
       </section>
 
       {/* Demand Generation & Marketing Ops */}
-      <section className="work-section">
+      <section id="demand-gen" className="work-section">
         <span className="section-tag">Demand Gen</span>
         <h2>Demand Generation & Marketing Ops</h2>
         <p className="section-summary">

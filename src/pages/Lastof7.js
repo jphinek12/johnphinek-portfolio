@@ -8,10 +8,15 @@ function Lastof7() {
         <p className="work-page-subtitle">
           I joined Lastof7—a luxury pickle brand—as the second employee, working directly with the founder to launch the company from scratch. I handled product development, influencer marketing, paid ads, and creative production before any specialized roles existed.
         </p>
+        <div className="section-nav">
+          <a href="#product" className="section-nav-btn">Product Development</a>
+          <a href="#influencer" className="section-nav-btn">Influencer Marketing</a>
+          <a href="#paid" className="section-nav-btn">Paid Advertising</a>
+        </div>
       </div>
 
       {/* Product Development */}
-      <section className="work-section">
+      <section id="product" className="work-section">
         <span className="section-tag">Product</span>
         <h2>Product Development</h2>
         <p className="section-summary">
@@ -54,7 +59,7 @@ function Lastof7() {
       </section>
 
       {/* Social Media & Influencer Marketing */}
-      <section className="work-section">
+      <section id="influencer" className="work-section">
         <span className="section-tag">Social</span>
         <h2>Influencer Marketing</h2>
         <p className="section-summary">
@@ -97,7 +102,7 @@ function Lastof7() {
       </section>
 
       {/* Performance Marketing */}
-      <section className="work-section">
+      <section id="paid" className="work-section">
         <span className="section-tag">Performance</span>
         <h2>Paid Advertising</h2>
         <p className="section-summary">

@@ -8,10 +8,17 @@ function Mage() {
         <p className="work-page-subtitle">
           I joined Mage as employee #6 and the first marketing hire. Over two years, I built every part of the marketing function: community, content, SEO, events, lifecycle, outbound, and account-based programs—mostly without agencies or budget.
         </p>
+        <div className="section-nav">
+          <a href="#events" className="section-nav-btn">Events</a>
+          <a href="#seo" className="section-nav-btn">SEO & Content</a>
+          <a href="#abm" className="section-nav-btn">Account-Based Marketing</a>
+          <a href="#sales" className="section-nav-btn">Sales Development</a>
+          <a href="#lifecycle" className="section-nav-btn">Lifecycle Marketing</a>
+        </div>
       </div>
 
       {/* Events Marketing */}
-      <section className="work-section">
+      <section id="events" className="work-section">
         <span className="section-tag">Events</span>
         <h2>Events Marketing</h2>
         <p className="section-summary">
@@ -43,7 +50,7 @@ function Mage() {
       </section>
 
       {/* SEO Strategy */}
-      <section className="work-section">
+      <section id="seo" className="work-section">
         <span className="section-tag">SEO</span>
         <h2>SEO & Content</h2>
         <p className="section-summary">
@@ -82,7 +89,7 @@ function Mage() {
       </section>
 
       {/* Account-Based Marketing */}
-      <section className="work-section">
+      <section id="abm" className="work-section">
         <span className="section-tag">ABM</span>
         <h2>Account-Based Marketing</h2>
         <p className="section-summary">
@@ -126,7 +133,7 @@ function Mage() {
       </section>
 
       {/* Sales Development */}
-      <section className="work-section">
+      <section id="sales" className="work-section">
         <span className="section-tag">Sales</span>
         <h2>Sales Development</h2>
         <p className="section-summary">
@@ -170,7 +177,7 @@ function Mage() {
       </section>
 
       {/* Lifecycle Marketing */}
-      <section className="work-section">
+      <section id="lifecycle" className="work-section">
         <span className="section-tag">Lifecycle</span>
         <h2>Lifecycle Marketing</h2>
         <p className="section-summary">

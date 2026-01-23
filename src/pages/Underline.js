@@ -8,10 +8,16 @@ function Underline() {
         <p className="work-page-subtitle">
           At Underline, a fiber network infrastructure startup, I ran performance marketing, direct mail, field events, and marketing analytics—scaling ad spend from $10K to $50K/month while building the data infrastructure to track it all.
         </p>
+        <div className="section-nav">
+          <a href="#performance" className="section-nav-btn">Performance Marketing</a>
+          <a href="#direct-mail" className="section-nav-btn">Direct Mail</a>
+          <a href="#analytics" className="section-nav-btn">Marketing Analytics</a>
+          <a href="#events" className="section-nav-btn">Field Marketing & Events</a>
+        </div>
       </div>
 
       {/* Performance Marketing */}
-      <section className="work-section">
+      <section id="performance" className="work-section">
         <span className="section-tag">Performance</span>
         <h2>Performance Marketing</h2>
         <p className="section-summary">
@@ -58,7 +64,7 @@ function Underline() {
       </section>
 
       {/* Direct Mail */}
-      <section className="work-section">
+      <section id="direct-mail" className="work-section">
         <span className="section-tag">Mail</span>
         <h2>Direct Mail</h2>
         <p className="section-summary">
@@ -101,7 +107,7 @@ function Underline() {
       </section>
 
       {/* Data Strategy */}
-      <section className="work-section">
+      <section id="analytics" className="work-section">
         <span className="section-tag">Data</span>
         <h2>Marketing Analytics</h2>
         <p className="section-summary">
@@ -133,7 +139,7 @@ function Underline() {
       </section>
 
       {/* Event Marketing */}
-      <section className="work-section">
+      <section id="events" className="work-section">
         <span className="section-tag">Events</span>
         <h2>Field Marketing & Events</h2>
         <p className="section-summary">
