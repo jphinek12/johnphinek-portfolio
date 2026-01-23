@@ -7,6 +7,7 @@ function Navbar() {
   const pathname = usePathname();
 
   const isActive = (path) => pathname === path;
+  const isWorkPage = ['/safetykit', '/mage', '/underline', '/lastof7', '/freelance'].includes(pathname);
 
   return (
     <nav className="navbar">
@@ -20,25 +21,37 @@ function Navbar() {
               Home
             </Link>
           </li>
-          <li>
-            <Link href="/mage" className={isActive('/mage') ? 'active' : ''}>
-              Mage
-            </Link>
-          </li>
-          <li>
-            <Link href="/underline" className={isActive('/underline') ? 'active' : ''}>
-              Underline
-            </Link>
-          </li>
-          <li>
-            <Link href="/lastof7" className={isActive('/lastof7') ? 'active' : ''}>
-              Lastof7
-            </Link>
-          </li>
-          <li>
-            <Link href="/freelance" className={isActive('/freelance') ? 'active' : ''}>
-              Freelance
-            </Link>
+          <li className="nav-dropdown">
+            <span className={`nav-dropdown-trigger ${isWorkPage ? 'active' : ''}`}>
+              Work Experience
+            </span>
+            <ul className="nav-dropdown-menu">
+              <li>
+                <Link href="/safetykit" className={isActive('/safetykit') ? 'active' : ''}>
+                  SafetyKit
+                </Link>
+              </li>
+              <li>
+                <Link href="/mage" className={isActive('/mage') ? 'active' : ''}>
+                  Mage
+                </Link>
+              </li>
+              <li>
+                <Link href="/underline" className={isActive('/underline') ? 'active' : ''}>
+                  Underline
+                </Link>
+              </li>
+              <li>
+                <Link href="/lastof7" className={isActive('/lastof7') ? 'active' : ''}>
+                  Lastof7
+                </Link>
+              </li>
+              <li>
+                <Link href="/freelance" className={isActive('/freelance') ? 'active' : ''}>
+                  Freelance
+                </Link>
+              </li>
+            </ul>
           </li>
         </ul>
       </div>

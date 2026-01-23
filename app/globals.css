@@ -112,6 +112,98 @@ html {
   border-radius: 1px;
 }
 
+/* Navbar Dropdown */
+.nav-dropdown {
+  position: relative;
+}
+
+.nav-dropdown-trigger {
+  color: rgba(232, 234, 246, 0.95);
+  font-weight: 600;
+  font-size: 0.95rem;
+  cursor: pointer;
+  transition: var(--transition);
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+.nav-dropdown-trigger::after {
+  content: '';
+  display: inline-block;
+  width: 0;
+  height: 0;
+  margin-left: 6px;
+  vertical-align: middle;
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-top: 5px solid rgba(232, 234, 246, 0.95);
+  transition: transform 0.2s ease;
+}
+
+.nav-dropdown:hover .nav-dropdown-trigger::after {
+  transform: rotate(180deg);
+}
+
+.nav-dropdown-trigger:hover,
+.nav-dropdown-trigger.active {
+  color: #ffffff;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+.nav-dropdown-trigger.active::before {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: calc(100% - 14px);
+  height: 2px;
+  background: #e8eaf6;
+  border-radius: 1px;
+}
+
+.nav-dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(30, 100, 200, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 8px;
+  padding: 0.5rem 0;
+  margin-top: 0.75rem;
+  min-width: 140px;
+  list-style: none;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease, visibility 0.2s ease;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+}
+
+.nav-dropdown:hover .nav-dropdown-menu {
+  opacity: 1;
+  visibility: visible;
+}
+
+.nav-dropdown-menu li {
+  padding: 0;
+}
+
+.nav-dropdown-menu a {
+  display: block;
+  padding: 0.5rem 1rem;
+  white-space: nowrap;
+}
+
+.nav-dropdown-menu a:hover {
+  background: rgba(255, 255, 255, 0.1);
+}
+
+.nav-dropdown-menu a.active::after {
+  display: none;
+}
+
 /* Hero Section */
 .hero {
   min-height: 100vh;
@@ -663,6 +755,39 @@ html {
     gap: 1rem;
     flex-wrap: wrap;
     justify-content: center;
+  }
+
+  .nav-dropdown-menu {
+    position: static;
+    transform: none;
+    background: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 0.5rem 0 0 0;
+    margin-top: 0;
+    min-width: auto;
+    opacity: 1;
+    visibility: visible;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: center;
+  }
+
+  .nav-dropdown-trigger::after {
+    display: none;
+  }
+
+  .nav-dropdown-trigger {
+    display: none;
+  }
+
+  .nav-dropdown-menu a {
+    padding: 0;
+  }
+
+  .nav-dropdown-menu a:hover {
+    background: transparent;
   }
 
   .hero {
