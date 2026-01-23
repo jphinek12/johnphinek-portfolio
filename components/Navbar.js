@@ -27,11 +27,6 @@ function Navbar() {
             </span>
             <ul className="nav-dropdown-menu">
               <li>
-                <Link href="/safetykit" className={isActive('/safetykit') ? 'active' : ''}>
-                  SafetyKit
-                </Link>
-              </li>
-              <li>
                 <Link href="/mage" className={isActive('/mage') ? 'active' : ''}>
                   Mage
                 </Link>
@@ -49,6 +44,11 @@ function Navbar() {
               <li>
                 <Link href="/freelance" className={isActive('/freelance') ? 'active' : ''}>
                   Freelance
+                </Link>
+              </li>
+              <li className="nav-dropdown-subitem">
+                <Link href="/safetykit" className={isActive('/safetykit') ? 'active' : ''}>
+                  SafetyKit
                 </Link>
               </li>
             </ul>
