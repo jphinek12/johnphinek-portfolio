@@ -582,6 +582,24 @@ html {
   transform: translateY(-2px);
 }
 
+.awards-section {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.awards-grid {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.award-image {
+  max-width: 280px;
+  height: auto;
+  border-radius: 10px;
+}
+
 .work-page-header .back-link {
   color: #6b7fd7;
   font-size: 0.9rem;

@@ -18,6 +18,14 @@ export default function Lastof7() {
         </div>
       </div>
 
+      {/* Awards Showcase */}
+      <section className="work-section awards-section">
+        <div className="awards-grid">
+          <img src="/good-food-award-24.png" alt="Good Food Awards Winner 2024" className="award-image" />
+          <img src="/good-food-award-22.png" alt="Good Food Awards Winner 2022" className="award-image" />
+        </div>
+      </section>
+
       {/* Product Development */}
       <section id="product" className="work-section">
         <span className="section-tag">Product</span>
