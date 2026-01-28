@@ -16,14 +16,9 @@ function Navbar() {
           <img src="/logo.png" alt="JPH" className="navbar-logo-img" />
         </Link>
         <ul className="nav-links">
-          <li>
-            <Link href="/" className={isActive('/') ? 'active' : ''}>
-              Home
-            </Link>
-          </li>
           <li className="nav-dropdown">
             <span className={`nav-dropdown-trigger ${isWorkPage ? 'active' : ''}`}>
-              Work Experience
+              Work
             </span>
             <ul className="nav-dropdown-menu">
               <li>
@@ -51,9 +46,12 @@ function Navbar() {
               </li>
             </ul>
           </li>
+          <li>
+            <a href="/#about">About</a>
+          </li>
           <li className="nav-dropdown">
             <span className="nav-dropdown-trigger">
-              Let's Connect
+              Contact
             </span>
             <ul className="nav-dropdown-menu">
               <li>
