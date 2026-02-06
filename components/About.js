@@ -21,9 +21,7 @@ function About() {
           </p>
         </div>
         <div className="about-image">
-          <div className="image-placeholder">
-            <span>Photo</span>
-          </div>
+          <img src="/1761285483358.jpeg" alt="John Patrick Hinek" className="about-photo" />
         </div>
       </div>
     </section>

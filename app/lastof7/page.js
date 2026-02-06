@@ -1,7 +1,18 @@
+import PhotoCarousel from '../../components/PhotoCarousel';
+
 export const metadata = {
   title: 'Lastof7 Inc. | John Patrick Hinek',
   description: 'Employee #2 at Lastof7, a luxury pickle brand. Handled product development, influencer marketing, paid ads, and creative production.'
 };
+
+const photos = [
+  { src: '/good-food-award-24.png', alt: 'Good Food Awards Winner 2024' },
+  { src: '/lastof7-asparagus.png', alt: 'Last of Seven Original Asparagus' },
+  { src: '/lastof7-carrots.png', alt: 'Last of Seven Pickled Carrots' },
+  { src: '/lastof7-tote.png', alt: 'Last of Seven Tote Bag' },
+  { src: '/lastof7-bloodymary.png', alt: 'Last of Seven Asparagus with Bloody Mary' },
+  { src: '/lastof7-carrot-trio.jpg', alt: 'Last of Seven Pickled Carrots Trio' },
+];
 
 export default function Lastof7() {
   return (
@@ -20,10 +31,7 @@ export default function Lastof7() {
 
       {/* Awards Showcase */}
       <section className="work-section awards-section">
-        <div className="awards-grid">
-          <img src="/good-food-award-24.png" alt="Good Food Awards Winner 2024" className="award-image" />
-          <img src="/good-food-award-22.png" alt="Good Food Awards Winner 2022" className="award-image" />
-        </div>
+        <PhotoCarousel images={photos} />
       </section>
 
       {/* Product Development */}

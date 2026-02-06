@@ -198,25 +198,8 @@ html {
   white-space: nowrap;
 }
 
-.nav-dropdown-menu a::after {
-  content: '\2192';
-  opacity: 0;
-  transform: translateX(8px);
-  transition: all 0.3s ease;
-  margin-left: 1rem;
-}
-
 .nav-dropdown-menu a:hover {
   background: rgba(255, 255, 255, 0.1);
-}
-
-.nav-dropdown-menu a:hover::after {
-  opacity: 1;
-  transform: translateX(0);
-}
-
-.nav-dropdown-menu a.active::after {
-  display: none;
 }
 
 .nav-dropdown-parent {
@@ -344,18 +327,11 @@ html {
   justify-content: center;
 }
 
-.image-placeholder {
+.about-photo {
   width: 300px;
   height: 350px;
-  background: linear-gradient(135deg, #667eea 0%, #f093fb 50%, #f5af19 100%);
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #ffffff;
-  font-size: 1.1rem;
-  font-weight: 500;
-  border: none;
+  object-fit: cover;
+  border-radius: 5px;
   box-shadow: 0 12px 40px rgba(102, 126, 234, 0.25);
 }
 
@@ -588,16 +564,93 @@ html {
 }
 
 .awards-grid {
-  display: flex;
-  justify-content: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
   gap: 2rem;
-  flex-wrap: wrap;
+  justify-items: center;
 }
 
 .award-image {
   max-width: 280px;
   height: auto;
+  border-radius: 5px;
+}
+
+.carousel-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.carousel-images {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+  justify-items: center;
+  flex: 1;
+  min-width: 0;
+}
+
+.carousel-images .award-image {
+  max-width: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+
+.carousel-arrow {
+  background: none;
+  border: none;
+  color: #667eea;
+  font-size: 2.5rem;
+  cursor: pointer;
+  transition: var(--transition);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  padding: 0.5rem;
+}
+
+.carousel-arrow:hover {
+  color: #4a5fd6;
+}
+
+@media (max-width: 768px) {
+  .carousel-images {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .carousel-arrow {
+    width: 36px;
+    height: 36px;
+    font-size: 1.5rem;
+  }
+}
+
+.photo-section {
+  text-align: center;
+}
+
+.photo-section h2 {
+  margin-bottom: 1.5rem;
+}
+
+.photo-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.photo-image {
+  max-width: 100%;
+  height: auto;
   border-radius: 10px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
 }
 
 .work-page-header .back-link {
@@ -932,7 +985,7 @@ html {
     order: -1;
   }
 
-  .image-placeholder {
+  .about-photo {
     width: 200px;
     height: 240px;
   }
